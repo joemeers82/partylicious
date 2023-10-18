@@ -1,0 +1,158 @@
+.wprm-recipe-template-sophias-cutout-template {
+  margin: 20px auto;
+  background-color: #fafafa;
+  font-family: Helvetica, sans-serif;
+  font-size: 0.9em;
+  line-height: 1.5em !important;
+  color: #333;
+  max-width: 650px;
+}
+
+.wprm-recipe-template-sophias-cutout-template a {
+  color: #3498db;
+}
+
+.wprm-recipe-template-sophias-cutout-template li,
+.wprm-recipe-template-sophias-cutout-template p {
+  font-family: Helvetica, sans-serif;
+  font-size: 1em !important;
+  line-height: 1.5em !important;
+}
+
+.wprm-recipe-template-sophias-cutout-template li {
+  margin: 0 0 0 32px !important;
+  padding: 0 !important;
+}
+
+.wprm-recipe-template-sophias-cutout-template ol,
+.wprm-recipe-template-sophias-cutout-template ul {
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.wprm-recipe-template-sophias-cutout-template br {
+  display: none;
+}
+
+.wprm-recipe-template-sophias-cutout-template .wprm-recipe-header,
+.wprm-recipe-template-sophias-cutout-template .wprm-recipe-name {
+  font-family: Helvetica, sans-serif;
+  color: #000;
+  line-height: 1.3em;
+}
+
+.wprm-recipe-template-sophias-cutout-template h1,
+.wprm-recipe-template-sophias-cutout-template h2,
+.wprm-recipe-template-sophias-cutout-template h3,
+.wprm-recipe-template-sophias-cutout-template h4,
+.wprm-recipe-template-sophias-cutout-template h5 {
+  font-family: Helvetica, sans-serif;
+  color: #000;
+  line-height: 1.3em;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.wprm-recipe-template-sophias-cutout-template .wprm-recipe-header {
+  margin-top: 1.2em !important;
+}
+
+.wprm-recipe-template-sophias-cutout-template h1 {
+  font-size: 2em;
+}
+
+.wprm-recipe-template-sophias-cutout-template h2 {
+  font-size: 1.8em;
+}
+
+.wprm-recipe-template-sophias-cutout-template h3 {
+  font-size: 1.2em;
+}
+
+.wprm-recipe-template-sophias-cutout-template h4 {
+  font-size: 1em;
+}
+
+.wprm-recipe-template-sophias-cutout-template h5 {
+  font-size: 1em;
+}
+
+.wprm-recipe-template-sophias-cutout-template {
+  position: relative;
+  border-style: solid;
+  border-width: 1px;
+  border-color: #aaa;
+  border-radius: 10px;
+  margin: 120px auto 20px;
+  overflow: visible;
+}
+
+.wprm-recipe-template-sophias-cutout-template-container {
+  overflow: hidden;
+  padding: 0 10px 10px;
+  border: 0;
+  border-radius: 7px;
+}
+
+.wprm-recipe-template-sophias-cutout-template .wprm-recipe-image {
+  position: absolute;
+  margin-top: -100px;
+  margin-left: -100px;
+  left: 50%;
+}
+
+.wprm-recipe-template-sophias-cutout-template-header {
+  margin: 0 -10px 10px;
+  padding: 110px 10px 10px;
+  text-align: center;
+  background-color: #053f5e;
+  color: #fff;
+}
+
+.wprm-recipe-template-sophias-cutout-template-header a {
+  color: #3498db;
+}
+
+.wprm-recipe-template-sophias-cutout-template-header .wprm-recipe-name {
+  color: #fff;
+}
+
+.wprm-recipe-link {
+  cursor: pointer;
+  text-decoration: none;
+
+  &.wprm-recipe-link-inline-button {
+    display: inline-block;
+    margin: 0 5px 5px 0;
+  }
+
+  &.wprm-recipe-link-button {
+    display: table;
+    margin: 5px auto;
+  }
+
+  &.wprm-recipe-link-wide-button {
+    display: block;
+    width: auto;
+    margin: 5px 0;
+    text-align: center;
+  }
+
+  &.wprm-recipe-link-button,
+  &.wprm-recipe-link-inline-button,
+  &.wprm-recipe-link-wide-button {
+    border-width: 1px;
+    border-style: solid;
+    padding: 5px;
+  }
+
+  &.wprm-recipe-link-disabled {
+    cursor: not-allowed;
+  }
+}
+
+.rtl .wprm-recipe-link {
+  &.wprm-recipe-link-inline-button {
+    margin: 0 0 5px 5px;
+  }
+}

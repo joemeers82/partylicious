@@ -1,4 +1,11 @@
 /** @type {import('next').NextConfig} */
-const nextConfig = {}
+require("dotenv").config({
+  path: `.env`,
+});
+const nextConfig = {
+  images: {
+    domains: ["partylicious.net", process.env.IMAGE_URL],
+  },
+};
 
-module.exports = nextConfig
+module.exports = nextConfig;
