@@ -12,4 +12,5 @@ This repository contains the source code for Partylicious Food Blog front end, b
 
 - **Next.js**: The React framework for building efficient and interactive user interfaces.
 - **TailwindCSS**: Utility-first CSS framework
+- **GraphQL**: GraphQL is a query language for your API, and a server-side runtime for executing queries using a type system you define for your data
 - **WordPress Backend**: Using WordPress as a headless CMS to manage project lists

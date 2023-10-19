@@ -87,12 +87,7 @@ export default async function Sidebar() {
       <SocialMenu />
       {webStories && (
         <>
-          <div className="pb-[30px] px-[30px] border border-transparent">
-            <h3 className="relative p-[10px] mb-[20px] after:content-['*] after:absolute after:bg-partyYellow after:left-[0] after:right-[0] after:top-[60%] after:h-3 after:z-[-1]">
-              Web Stories
-            </h3>
-            <WebStories webStories={webStories}></WebStories>
-          </div>
+          <WebStories webStories={webStories}></WebStories>
         </>
       )}
     </aside>

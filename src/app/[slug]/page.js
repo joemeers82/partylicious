@@ -3,7 +3,7 @@
 import { getSinglePost } from "../../../lib/queries/PostsQuery";
 import Sidebar from "@/components/Sidebar/Sidebar";
 import Link from "next/link";
-import parse from "html-react-parser";
+import parse, { domToReact } from "html-react-parser";
 import Image from "next/image";
 export default async function Post({ params }) {
   const post = await getSinglePost(params.slug);

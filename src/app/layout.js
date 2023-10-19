@@ -6,6 +6,8 @@ import Header from "@/components/Header";
 import Sidebar from "@/components/Sidebar/Sidebar";
 import Footer from "@/components/Footer/Footer";
 
+import { ApolloWrapper } from "../../lib/apollo/apollo-provider";
+
 const inter = Inter({ subsets: ["latin"] });
 const montserrat = Montserrat({
   weight: ["100", "200", "300", "400", "500", "600", "700", "800", "900"],
@@ -23,9 +25,11 @@ export default function RootLayout({ children }) {
       <body
         className={`${montserrat.className} font-light text-base leading-global tracking-global text-default`}
       >
-        <Header></Header>
-        <div className="">{children}</div>
-        <Footer></Footer>
+        <ApolloWrapper>
+          <Header></Header>
+          <div className="">{children}</div>
+          <Footer></Footer>
+        </ApolloWrapper>
       </body>
     </html>
   );
